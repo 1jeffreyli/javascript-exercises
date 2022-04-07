@@ -12,8 +12,8 @@ const sum = sum => sum.reduce((a, b,) => a + b, 0);
 
 const multiply = multiply => multiply.reduce((a, b) => a * b, 1);
 
-const power = function() {
-	
+const power = function(x, y) {
+  return Math.pow(x, y);
 };
 
 const factorial = function() {
