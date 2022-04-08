@@ -1,20 +1,12 @@
-const add = function(a, b) {
-  const addition = a + b;
-  return addition;
-};
+const add = (a, b) => a + b;
 
-const subtract = function(a, b) {
-  const result = a - b;
-  return result;
-};
+const subtract = (a, b) => a -b;
 
 const sum = sum => sum.reduce((a, b,) => a + b, 0);
 
 const multiply = multiply => multiply.reduce((a, b) => a * b, 1);
 
-const power = function(x, y) {
-  return Math.pow(x, y);
-};
+const power = (x, y) => Math.pow(x, y);
 
 const factorial = function(num) {
 	if (num === 0 || num === 1) {
